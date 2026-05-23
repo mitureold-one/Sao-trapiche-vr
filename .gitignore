@@ -17,8 +17,6 @@
 *.user
 *.userprefs
 *.pidb
-*.booproj
-*.svd
 *.pdb
 *.mdb
 *.opendb
@@ -35,7 +33,7 @@ ExportedObj/
 .DS_Store
 Thumbs.db
 
-# Asset packs da Asset Store (reimportar no Package Manager ou Asset Store)
+# Asset packs grandes da Asset Store (reinstalar manualmente)
 Assets/Waldemarst/
 Assets/PBS Materials Variety Pack/
 Assets/MicroVerse-Extras/
@@ -44,15 +42,6 @@ Assets/ADG_Textures/
 Assets/AllSkyFree/
 Assets/YughuesFreeManmadeMaterials/
 Assets/0_free_pack/
-Assets/Procedural Tree/
 
-# Pacotes que vem automaticamente com o projeto via Package Manager
-Assets/Samples/
-Assets/TextMesh Pro/
-Assets/VRTemplateAssets/
-
-# Pasta de recuperacao (nao necessaria)
-Assets/_Recovery/
-
-# Unity AI Assistant - binarios gigantes
+# Binarios gigantes do Unity AI Assistant
 Packages/com.unity.ai.assistant/
