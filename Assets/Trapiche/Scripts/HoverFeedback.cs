@@ -42,12 +42,14 @@ public class HoverFeedback : MonoBehaviour
         if (_renderer != null)
         {
             _renderer.GetPropertyBlock(_mpb);
-            _emissaoOriginal = _renderer.sharedMaterial.HasProperty("_EmissionColor")
-                ? _renderer.sharedMaterial.GetColor("_EmissionColor")
+            // Usa material (instancia) em vez de sharedMaterial para nao afetar outros objetos
+            var mat = _renderer.material;
+            _emissaoOriginal = mat.HasProperty("_EmissionColor")
+                ? mat.GetColor("_EmissionColor")
                 : Color.black;
 
-            // Garante que emissao esta habilitada no material
-            _renderer.sharedMaterial.EnableKeyword("_EMISSION");
+            // Garante que emissao esta habilitada na instancia do material
+            mat.EnableKeyword("_EMISSION");
             _emissaoAtiva = true;
         }
 

@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 4853165}
   - component: {fileID: 4853164}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Plano_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124767295}
   - component: {fileID: 124767294}
-  - component: {fileID: 124767293}
+  - component: {fileID: 124767296}
   m_Layer: 0
   m_Name: PortalLobby
   m_TagString: Untagged
@@ -435,21 +435,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &124767293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124767292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4daafeed4b38f8749929e89d86272c94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PortalLoader
-  nomeCena: Lobby
-  duracaoFade: 1.2
-  corFade: {r: 0, g: 0, b: 0, a: 1}
 --- !u!135 &124767294
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -465,7 +450,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -480,7 +465,7 @@ Transform:
   m_GameObject: {fileID: 124767292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: 0, z: 16.731}
+  m_LocalPosition: {x: -1.24, y: 0, z: 11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -490,6 +475,21 @@ Transform:
   - {fileID: 2133821427}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &124767296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124767292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad771ee05e0d4dd4896df6738d069c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  nomeCena: Lobby
+  duracaoFade: 1.2
+  corFade: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &134807229
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 134807232}
   - component: {fileID: 134807231}
   m_Layer: 0
-  m_Name: Rock_06_A_LOD2 (1)
+  m_Name: Rocha_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 182829252}
   - component: {fileID: 182829251}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Madeira_Ripa_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,6 +783,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Interaction Simulator
       objectReference: {fileID: 0}
+
     - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1001,7 +1002,7 @@ GameObject:
   - component: {fileID: 429557552}
   - component: {fileID: 429557551}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Madeira_Ripa_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1113,7 +1114,7 @@ GameObject:
   - component: {fileID: 490039758}
   - component: {fileID: 490039757}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Concreto_Canto_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1226,7 @@ GameObject:
   - component: {fileID: 500263624}
   - component: {fileID: 500263623}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Concreto_Canto_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1337,7 +1338,7 @@ GameObject:
   - component: {fileID: 508627083}
   - component: {fileID: 508627082}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Madeira_Ripa_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,7 +1450,7 @@ GameObject:
   - component: {fileID: 513793153}
   - component: {fileID: 513793152}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Concreto_Canto_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,7 +1562,7 @@ GameObject:
   - component: {fileID: 521798845}
   - component: {fileID: 521798844}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Concreto_Canto_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1825,7 +1826,7 @@ GameObject:
   - component: {fileID: 719111763}
   - component: {fileID: 719111762}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Madeira_Ripa_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2043,7 +2044,7 @@ GameObject:
   - component: {fileID: 763285243}
   - component: {fileID: 763285242}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Madeira_Ripa_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2237,7 +2238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2257,7 +2258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122508800755, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 35.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122508800755, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2285,7 +2286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122894124685, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 39.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122894124685, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2313,7 +2314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851320941268098, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 32.34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7434851320941268098, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2349,7 +2350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321834335947, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 34.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7434851321834335947, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2377,7 +2378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322346956810, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322346956810, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2405,7 +2406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322872225859, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 35.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7434851322872225859, guid: e4f332aea9a46b34bab01d9d6d17f588, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2602,7 +2603,7 @@ GameObject:
   - component: {fileID: 837910960}
   - component: {fileID: 837910959}
   m_Layer: 0
-  m_Name: ColunaEsq
+  m_Name: Portal_ColunaEsq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2693,7 +2694,7 @@ GameObject:
   - component: {fileID: 846308382}
   - component: {fileID: 846308381}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Concreto_Canto_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2810,7 +2811,7 @@ GameObject:
   - component: {fileID: 864576467}
   - component: {fileID: 864576466}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Madeira_Ripa_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2987,7 +2988,7 @@ GameObject:
   - component: {fileID: 910854833}
   - component: {fileID: 910854832}
   m_Layer: 0
-  m_Name: Verga
+  m_Name: Portal_Verga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3146,7 +3147,7 @@ GameObject:
   - component: {fileID: 946551662}
   - component: {fileID: 946551661}
   m_Layer: 0
-  m_Name: ColunaDir
+  m_Name: Portal_ColunaDir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3444,7 +3445,7 @@ GameObject:
   - component: {fileID: 1029549850}
   - component: {fileID: 1029549849}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Concreto_Canto_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3700,7 +3701,7 @@ GameObject:
   - component: {fileID: 1167403766}
   - component: {fileID: 1167403765}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Madeira_Ripa_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3812,7 +3813,7 @@ GameObject:
   - component: {fileID: 1232394838}
   - component: {fileID: 1232394837}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Concreto_Canto_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3924,7 +3925,7 @@ GameObject:
   - component: {fileID: 1255378306}
   - component: {fileID: 1255378305}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Madeira_Ripa_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4053,7 +4054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274526753779858, guid: 6a8a77a07da1ab74bb3d34fe70501b7d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4274526753779858, guid: 6a8a77a07da1ab74bb3d34fe70501b7d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4180,7 +4181,7 @@ GameObject:
   - component: {fileID: 1337039217}
   - component: {fileID: 1337039216}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Plano_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4290,7 +4291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1351307444}
   m_Layer: 0
-  m_Name: Banco (3)
+  m_Name: Banco_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4332,7 +4333,7 @@ GameObject:
   - component: {fileID: 1354708416}
   - component: {fileID: 1354708415}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: Plano_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4523,7 +4524,7 @@ GameObject:
   - component: {fileID: 1366546688}
   - component: {fileID: 1366546687}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Concreto_Canto_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4640,7 +4641,7 @@ GameObject:
   - component: {fileID: 1393833462}
   - component: {fileID: 1393833461}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Madeira_Ripa_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4886,7 +4887,7 @@ GameObject:
   - component: {fileID: 1431325749}
   - component: {fileID: 1431325748}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Madeira_Ripa_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5042,7 +5043,7 @@ GameObject:
   - component: {fileID: 1449342556}
   - component: {fileID: 1449342555}
   m_Layer: 0
-  m_Name: Rock_06_A_LOD2 (2)
+  m_Name: Rocha_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5150,7 +5151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274526753779858, guid: 6a8a77a07da1ab74bb3d34fe70501b7d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4274526753779858, guid: 6a8a77a07da1ab74bb3d34fe70501b7d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5271,7 +5272,7 @@ GameObject:
   - component: {fileID: 1495287074}
   - component: {fileID: 1495287073}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Concreto_Canto_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5771,7 +5772,7 @@ GameObject:
   - component: {fileID: 1721762774}
   - component: {fileID: 1721762773}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Concreto_Canto_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5883,7 +5884,7 @@ GameObject:
   - component: {fileID: 1772334812}
   - component: {fileID: 1772334811}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Concreto_Canto_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5992,7 +5993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782475795}
   m_Layer: 0
-  m_Name: Banco (2)
+  m_Name: Banco_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6264,7 +6265,7 @@ GameObject:
   - component: {fileID: 1842548577}
   - component: {fileID: 1842548576}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Concreto_Canto_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6450,7 +6451,7 @@ GameObject:
   - component: {fileID: 1965302837}
   - component: {fileID: 1965302836}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Madeira_Ripa_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6666,7 +6667,7 @@ GameObject:
   - component: {fileID: 2133821429}
   - component: {fileID: 2133821428}
   m_Layer: 0
-  m_Name: PortalCenter
+  m_Name: Portal_Centro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6754,7 +6755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2134481288}
   m_Layer: 0
-  m_Name: Banco (1)
+  m_Name: Banco_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6796,7 +6797,7 @@ GameObject:
   - component: {fileID: 2141256944}
   - component: {fileID: 2141256943}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Madeira_Ripa_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

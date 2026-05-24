@@ -45,3 +45,52 @@ Assets/0_free_pack/
 
 # Binarios gigantes do Unity AI Assistant
 Packages/com.unity.ai.assistant/
+
+
+# TerrainDemoScene_URP - ignorar subpastas pesadas nao usadas
+Assets/TerrainDemoScene_URP/Terrain/
+Assets/TerrainDemoScene_URP/Textures/
+Assets/TerrainDemoScene_URP/Scenes/
+Assets/TerrainDemoScene_URP/Scripts/
+
+# YughuesFreeConcreteMaterials - ignorar texturas nao usadas
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Moldy*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_SaltFinish*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Honeycombing*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_PrecastD[^4]*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Polished*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Stamped*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Brushed*
+Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Scifi*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_[^P]*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Precast[^D]*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD[^4]*
+
+# Outros pacotes grandes nao usados
+Assets/HDRPDefaultResources/
+Assets/TerrainSampleAssets/
+Assets/RPG_FPS_game_assets_industrial/
+Assets/Assets_FenceChained/
+Assets/Tree_Textures/
+# TerrainDemoScene_URP/Prefabs - subpastas pesadas nao usadas
+Assets/TerrainDemoScene_URP/Prefabs/Foliage/
+Assets/TerrainDemoScene_URP/Prefabs/Lighting/
+Assets/TerrainDemoScene_URP/Prefabs/Skybox/
+Assets/TerrainDemoScene_URP/Prefabs/Water/
+Assets/TerrainDemoScene_URP/Prefabs/Rocks/Textures/
+Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_A*
+Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_B*
+Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_C*
+Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_Overgrown*
+Assets/TerrainDemoScene_URP/VFXGraphs/
+Assets/TerrainDemoScene_URP/Animation/
+Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/
+Assets/TerrainDemoScene_URP/ShaderGraphs/
+Assets/TerrainDemoScene_URP/Notes/
+Assets/TerrainDemoScene_URP/Settings/
+Assets/TerrainDemoScene_URP/Prefabs/GrassDry*
+Assets/TerrainDemoScene_URP/Prefabs/Plant_*
+Assets/TerrainDemoScene_URP/Prefabs/Shots/
+Assets/TerrainDemoScene_URP/Readme*
