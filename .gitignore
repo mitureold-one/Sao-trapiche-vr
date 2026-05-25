@@ -60,9 +60,22 @@ Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Stamped*
 Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Slab*
 Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Brushed*
 Assets/YughuesFreeConcreteMaterials/Textures/T_YFCM_Scifi*
-Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_[^P]*
-Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Precast[^D]*
-Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD[^4]*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_BrushedWorn*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_ColoredSand*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_CrossSlabs*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Crystallized*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Fibers*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Honeycombing*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Moldy*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Plastered*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Polished*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_RevealingBricks*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_SaltFinish*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Scifi*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Slab*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Spalling*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Stamped*
+Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_Waves*
 
 # Outros pacotes grandes nao usados
 Assets/HDRPDefaultResources/
