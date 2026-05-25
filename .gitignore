@@ -35,13 +35,9 @@ Thumbs.db
 
 # Asset packs grandes da Asset Store (reinstalar manualmente)
 Assets/Waldemarst/
-Assets/PBS Materials Variety Pack/
 Assets/MicroVerse-Extras/
-Assets/Cartoon_Texture_Pack/
 Assets/ADG_Textures/
-Assets/AllSkyFree/
 Assets/YughuesFreeManmadeMaterials/
-Assets/0_free_pack/
 
 # Binarios gigantes do Unity AI Assistant
 Packages/com.unity.ai.assistant/
@@ -70,7 +66,6 @@ Assets/YughuesFreeConcreteMaterials/Materials/M_YFCM_PrecastD[^4]*
 
 # Outros pacotes grandes nao usados
 Assets/HDRPDefaultResources/
-Assets/TerrainSampleAssets/
 Assets/RPG_FPS_game_assets_industrial/
 Assets/Assets_FenceChained/
 Assets/Tree_Textures/
