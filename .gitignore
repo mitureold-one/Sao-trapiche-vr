@@ -79,7 +79,6 @@ Assets/TerrainDemoScene_URP/Prefabs/Foliage/
 Assets/TerrainDemoScene_URP/Prefabs/Lighting/
 Assets/TerrainDemoScene_URP/Prefabs/Skybox/
 Assets/TerrainDemoScene_URP/Prefabs/Water/
-Assets/TerrainDemoScene_URP/Prefabs/Rocks/Textures/
 Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_A*
 Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_B*
 Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_C*
@@ -87,7 +86,6 @@ Assets/TerrainDemoScene_URP/Prefabs/Rocks/Rock_Overgrown*
 Assets/TerrainDemoScene_URP/VFXGraphs/
 Assets/TerrainDemoScene_URP/Animation/
 Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/
-Assets/TerrainDemoScene_URP/ShaderGraphs/
 Assets/TerrainDemoScene_URP/Notes/
 Assets/TerrainDemoScene_URP/Settings/
 Assets/TerrainDemoScene_URP/Prefabs/GrassDry*
